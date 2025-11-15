@@ -533,22 +533,29 @@ body.light-theme .admin-card {
   transition: max-height 0.25s ease, padding 0.25s ease;
 }
 
-.admin-card-body p {
+/* .admin-card-body p {
   font-size: 0.82rem;
   color: var(--text-muted);
   margin: 6px 0 8px;
-}
+} */
 
 .admin-card-body ul {
   padding-left: 18px;
   margin: 4px 0 8px;
 }
 
-.admin-card-body li {
+.admin-card-body p,
+.admin-card-body li,
+.admin-card-title {
+  color: var(--text-main);
+}
+
+
+/* .admin-card-body li {
   font-size: 0.82rem;
   color: var(--text-muted);
   margin-bottom: 4px;
-}
+} */
 
 .admin-card-link {
   font-size: 0.8rem;
